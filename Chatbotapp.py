@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.append('C:/Users/PC/AppData/Roaming/Python/Python310/site-packages')
+sys.path.append('../..')
 from dotenv import load_dotenv,find_dotenv
 _ = load_dotenv(find_dotenv()) # read local .env file
 import openai
